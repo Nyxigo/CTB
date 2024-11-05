@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Console Néon Vidéo</title>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="console">
+    <h1>Bibliothèque Vidéo</h1>
+
+    <!-- Conteneur de vidéos avec liste déroulante pour chaque date -->
+    <details class="video-list">
+      <summary>05 Novembre 2024</summary>
+      <div class="video-item">
+        <video id="player1" playsinline controls data-poster="/path/to/poster1.jpg">
+          <source src="https://pvr.highwebmedia.com/2073130960e708b4d2412485a7f5e9e52b42f3a1eb5ae152259b940fc77f53cf.mp4?Expires=1730831472&Signature=CG-zYa0GHLi-ui0LFyHolYpkHjlzkzyHPrb8pdTui4SaDTbugLXNKGaPhCt--83nzTdaQbXYAGOiwPaHQWa-Uailn9luERUVoGpL0HwJzf39AgUdlZ8uOhk1A1FAtpIxqdgG-LSCCKzaApfYjNAAs9AN8a1c03BJk8QxYshlqmNKMciS1lmRY~fByPnjtFVr~OvR7v1VAa0gsFpi2tfxdLlsbdv3qPJYmEMV8XGNe8BLywBMK5psLDyN-H6XdxiwZFIFrSfzdojWD124g14VE0fFsYcoOg5nJ8FlcJJKqX7qE2UZE~uTMStoEKhL2V-ODCqQ5bO~7AoF6pgVlncgMA__&Key-Pair-Id=APKAI6H3T5HEAJ73L36A" type="video/mp4" />
+          <source src="/path/to/video1.webm" type="video/webm" />
+        </video>
+      </div>
+    </details>
+
+    <details class="video-list">
+      <summary>25 Octobre 2024</summary>
+      <div class="video-item">
+        <video id="player3" playsinline controls data-poster="/path/to/poster1.jpg">
+          <source src="https://pvr.highwebmedia.com/8610e2c35c39a03864ee4c601cb71b3474026af7e901509857689d06533e1e01.mp4?Expires=1730831376&Signature=fZUKg5p10LLVfRs0SZ53gG0Bkrs-~lnlTX08M95JXMB50caS0hnpe1PEe8-i3hR-9VXycL8P-EQnaMCepnuOFDy7Ym5Kll3I5awbwfRl88DlGjY8bx4KmlxWagKPEDi3vn~PzM8m3dfAOJAOTGi4pZF2XQhmuPlynfsy8HxmWH2T6vbX49B3GSSC-VVlN95yq9Eu8q~vzo95dnceNdTBeHoa8EolqnM9DIKlfgsK0vcCJaYvMCbVGhFC4VrCwco~hS641xFtCpcbIF9r3LeqAtL3VYimq3BSTtSwAZEXOdyCJL~S~RtOU2XVLLc9y6yvgzXH1Yoe~xi4o3ZOgR4wjg__&Key-Pair-Id=APKAI6H3T5HEAJ73L36A" type="video/mp4" />
+          <source src="/path/to/video1.webm" type="video/webm" />
+        </video>
+      </div>
+      <div class="video-item">
+        <video id="player8" playsinline controls data-poster="/path/to/poster1.jpg">
+          <source src="https://pvr.highwebmedia.com/f71973f218cf60917caa4ce713c9e618904736a0be47f8fa3f7ca331b9d2b69a.mp4?Expires=1730831407&Signature=YX338GsYHAI5mzrnCd4-6YXKHEFQ~iiU3zxCo-QX7iT~q9ER2vo3HHvI8a0Rme6z1yP67LbHw06SdGNr72LT1jhAePCMyFaqbpWERWKNeNHpb802g-WOHH18Bvg4NZGeMZqaRGJK9sJsG1nEwU~Py0YFr1xgglS2k1u3vW9n76HwHoV~9SyfqwjEHWDD~jr~TgD8gOOxvT2jIeZanZxEJphk71VCYAFkFMiBxl~qpPpoec-vWUch1TRugDQnACPNCAYEkAL0bYKJqIajvqvidL0tDNGroTH29woAJEK5Q-kRFX8tmpafpNg8ic-buc1Cp8Uru7TP4c11wTAl788wIA__&Key-Pair-Id=APKAI6H3T5HEAJ73L36A" type="video/mp4" />
+          <source src="/path/to/video1.webm" type="video/webm" />
+        </video>
+      </div>
+    </details>
+
+    <details class="video-list">
+      <summary>11 Octobre 2024</summary>
+      <div class="video-item">
+        <video id="player4" playsinline controls data-poster="/path/to/poster1.jpg">
+          <source src="https://pvr.highwebmedia.com/246b245041118f6c93f55806de60f9b3b6e3a54f1ffa082e7ca964a3650b34f8.mp4?Expires=1730831322&Signature=VR8U2Jdl0dDmDnGOF2~zzM59feWOcvJ0f6HnAu0HH19ljEFunZ2bzzl0k0SR39-DbjErJ4JeLdOSXaIwisvpsUPt5mjEsujdsi4Y3ycc~GFrq8WkNb3uwf~2~nqwT26GZpLcc80hAiOJHwt0rZ69he8oCw5JmIAykCWMz05RC9qSF3KhCxpx91oQpJAowHtBcbQx1yigrpkwHWehEnSXw2gJWz-FSNes3ZtQlR3sIwJHJWh7bjaYc395deOGi9PUFYQP~lxRyidbjJ22kBdb9IiPiB9htgO0-l1cR7WrYIQBCPpuG0~zcpnBVgv00N4PTTTZiog83jDxicV4E1YVXw__&Key-Pair-Id=APKAI6H3T5HEAJ73L36A" type="video/mp4" />
+          <source src="/path/to/video1.webm" type="video/webm" />
+        </video>
+      </div>
+    </details>
+
+    <details class="video-list">
+      <summary>05 Octobre 2024</summary>
+      <div class="video-item">
+        <video id="player5" playsinline controls data-poster="/path/to/poster3.jpg">
+          <source src="https://pvr.highwebmedia.com/93aec6ae4c38e1470762409981f082ae31736034bedfb6024b749fa19ebb6cd1.mp4?Expires=1730830743&Signature=YdtsNpkXmaZCfpTXOqr9UrhlyQdSOHbTkv356ujn9hGvG6cip0egleK6vGnwqEPYR-MXi3IH8vrBhekmQ7s-z2U9N~3bkHS0zecCCs98tmYhTtuM3Uvr1pLb0a2u744x8BvYsSyqM3DGni5355iFd-fC145FZlMOesUAkpZ2RnSr1ZJHMBsCU-1m-RLDjkww3CGa2faOaT4HvYHXy6q8e4Sxyz9jexZey2AM5wfvZYQ7vLY5f4PR3Q-9trEUqqQYEidpoZtQFVndGPl8keSWsCrweIcptwI6HGYAlclKmyLRZvf5z7l1eOCrCiJiConxC0-bcm157UGf2IjfNBsVSw__&Key-Pair-Id=APKAI6H3T5HEAJ73L36A" type="video/mp4" />
+          <source src="/path/to/video3.webm" type="video/webm" />
+        </video>
+      </div>
+    </details>
+
+    <details class="video-list">
+      <summary>27 Septembre 2024</summary>
+      <div class="video-item">
+        <video id="player6" playsinline controls data-poster="/path/to/poster3.jpg">
+          <source src="https://pvr.highwebmedia.com/81dc2a4ae9fb43b05562ba5cc263941fa228858a95b43063cc80f279788343fa.mp4?Expires=1730831131&Signature=C~DyqyJeuqPDwBwRvU8A9yGRh96xS4jY6j-h1a381tbmlWn-rbJfz1LAk0je3SYpTgbMojXbhXUAeAZMt9KTx5RQBmpJf9RFsFvSWcjOVxI2eascIjrza9X2jgIcWUB7Sjlpw1ddEEseP-uNGKZ~kZn4LeJe7NkqhI42JpxZoZ4VOumsq9omYLBunIZmYoAHKrhYG9~TeR1cfocVV69BOk3Bq3vA2eQd00HSxHvIUWKEMMKImbhpV97Z2x3H6sgvZL7psb9OiPwvSRYJLnojldIlSx1ji9gxcdvqhMETrOlZUJGzOBRHJ2jpuhLoLrvIHOkx7Yl-IFjzho9eYdDATQ__&Key-Pair-Id=APKAI6H3T5HEAJ73L36A" type="video/mp4" />
+          <source src="/path/to/video3.webm" type="video/webm" />
+        </video>
+      </div>
+    </details>
+
+    <details class="video-list">
+      <summary>26 Septembre 2024</summary>
+      <div class="video-item">
+        <video id="player7" playsinline controls data-poster="/path/to/poster3.jpg">
+          <source src="https://pvr.highwebmedia.com/929955129d09bdc309e92e3489a22dac9d1ecbd6d14a0745f0a1d663fb270e2b.mp4?Expires=1730830741&Signature=f~DC6mWsQJTJ0uRXxW~KG8Hi5dPXGsva7L1TU7SmsP6ME6rX-nNOP~jp2GeXTYCLTXvlPNbAwE85O8XSuj4QTPuCG0wPOr21YtV~Fmwst3KQdFS6t15sSPBow1vpxyxEH0DEPAGMY2DZ4a7yuMWZioxVNO2vHiBgwDa4nBmXUjDv4Xmywqgwsh4vETkdyctWWYorL1usscFkgUaCX5HNqlPjLL6X9G0F4XNmHOEaV3UrIUTS0RpzJquT83Mb4I8fgnbjS9U~19GVC4479j9FmftI7l5RwdOoXVb9oPoc9unkb3AsGXVA5uUP3F0w8Mzw78evr0c-Oiz7VtZeOBl6TQ__&Key-Pair-Id=APKAI6H3T5HEAJ73L36A" type="video/mp4" />
+          <source src="/path/to/video3.webm" type="video/webm" />
+        </video>
+      </div>
+    </details>
+    
+  </div>
+
+  <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+  <script>
+    // Initialisation de chaque lecteur vidéo
+    document.querySelectorAll('video').forEach(player => new Plyr(player));
+  </script>
+</body>
+</html>
